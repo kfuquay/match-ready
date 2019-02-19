@@ -32,13 +32,13 @@ header h1 {
 
 .intro {
     font-size: 18px;
-    margin-left: 5px;
+    margin: 5px;
 }
 
 .hidden {
     visibility: hidden;
     height: 0;
-    margin: 0;
+    margin: 0 !important;
     padding: 0;
 }
 
@@ -131,6 +131,7 @@ select:focus {
     text-decoration: none;
     color: #c9c9c9;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 #news-list li,
@@ -138,6 +139,12 @@ select:focus {
     margin: 20px;
     max-width: 80vw;
     border-bottom: 1px solid goldenrod;
+    padding: 20px;
+    margin: 20px;
+}
+
+#news-list li > * {
+    margin: 10px;
 }
 
 #stats-at-a-glance {
@@ -150,14 +157,16 @@ select:focus {
     text-transform: uppercase;
 }
 
-.team {
+.vs-teams {
     font-size: 28px;
     text-transform: uppercase;
     text-align: center;
+    margin: 10px;
 }
 
 .sub-header {
     margin: 50px;
+    padding: 20px;
     border-bottom: 1px solid goldenrod;
 }
 
@@ -181,4 +190,62 @@ select:focus {
 .next-match span {
     font-size: 22px;
     font-weight: bold;
+}
+
+@media only screen and (min-device-width: 760px) {
+    .home-title {
+        font-size: 100px;
+        max-width: 50%;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    .intro-container {
+        margin-bottom: 250px;
+    }
+
+    .intro {
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        text-shadow: 4px 4px 6px green;
+    }
+
+    .sub-menu {
+        list-style: none;
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+        border-top: 3px solid green;
+        border-bottom: 3px solid green;
+    }
+
+    .sub-menu-button {
+        font-size: 22px;
+        margin: 7px;
+    }
+
+    .crest {
+        max-width: 300px;
+        max-height: 300px;
+        display: block;
+        margin: 150px auto;
+    }
+
+    .vs-teams {
+        font-size: 36px;
+        margin: 20px;
+    }
+
+    .next-match-container {
+        margin: 75px 20px;
+    }
+
+    .next-match {
+        margin: 30px;
+    }
 }

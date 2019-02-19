@@ -11,9 +11,9 @@ function displayNextMatch(responseJson) {
 
     $('.js-container').append(`
         <section class="sub-header">
-            <h1 class="team">${nextMatch[0].homeTeam.name}</h1>
+            <h1 class="vs-teams">${nextMatch[0].homeTeam.name}</h1>
             <h4 class="vs">VS.</h4>
-            <h1 class="team">${nextMatch[0].awayTeam.name}</h1>
+            <h1 class="vs-teams">${nextMatch[0].awayTeam.name}</h1>
         </section>
 
         <section class="next-match-container">
@@ -76,6 +76,8 @@ function displayTeam(responseJson) {
     
     //empty header and js populated section
     $('.title').empty();
+    $('.intro-container').empty();
+    $('.intro-container').addClass('hidden');
     $('.js-container').empty();
     //insert new h1(team name) into header
     $('.title').append(`
