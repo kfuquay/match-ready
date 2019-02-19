@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Get Match Ready | Pick your favourite EFL Championship team to get news, stats and more">
+    <title>Are You Match Ready?</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header role="banner" class="title">
+            <h1 class="home-title">Get Match Ready!</h1>
+            <p class="intro">Know before you go!</p>
+            <p class="intro">Bone up before you attend your next EFL Championship match.  Select a team to get relevant info.</p>
+        </header>
+        <section>
+            <ul class="sub-menu hidden">
+                <li><button type="button" class="sub-menu-button" id="news-button">Team News</button></li>
+                <li><button type="button" class="sub-menu-button" id="stats-button">Team Stats</button></li>
+                <li><button type="button" class="sub-menu-button" id="match-button">Next Match</button></li>
+            </ul>
+        </section>
+        <section class="js-container" aria-live="polite">
+        </section>
+        <form class="team-choices">
+            <select class="js-select-team" dir="rtl" required>
+                <option value="" selected="selected disabled">Select Team</option>
+                <option value="58">Aston Villa FC</option>
+                <option value="332">Birmingham City FC</option>
+                <option value="59">Blackburn Rovers FC</option>
+                <option value="60">Bolton Wanderers FC</option>
+                <option value="402">Brentford FC</option>
+                <option value="387">Bristol City FC</option>
+                <option value="342">Derby County FC</option>
+                <option value="322">Hull City AFC</option>
+                <option value="349">Ipswich Town FC</option>
+                <option value="341">Leeds United AFC</option>
+                <option value="343">Middlesbrough FC</option>
+                <option value="384">Millwall FC</option>
+                <option value="68">Norwich City FC</option>
+                <option value="351">Nottingham Forest FC</option>
+                <option value="1081">Preston North End FC</option>
+                <option value="69">Queens Park Rangers FC</option>
+                <option value="355">Reading FC</option>
+                <option value="385">Rotherham United FC</option>
+                <option value="345">Sheffield Wednesday FC</option>
+                <option value="356">Sheffield United FC</option>
+                <option value="70">Stoke City FC</option>
+                <option value="72">Swansea City AFC</option>
+                <option value="74">West Bromwich Albion FC</option>
+                <option value="75">Wigan Athletic FC</option>
+            </select>
+            <input type="Submit" value="Submit">
+            <!-- <button type="button" value="349" class="ITFC">Ipswich Town FC</button>
+            <button type="button" value="80" class="other">Other</button>
+            <button type="button" value="39">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button>
+            <button type="button" value="349">Ipswich Town FC</button> -->
+        </form>
+
+    </div>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

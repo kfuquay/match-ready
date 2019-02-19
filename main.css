@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #010101;
+    color: #c2c2c2;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px green;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 10px 50px 5px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-title {
+    font-size: 4.5em;
+    margin-left: 0;
+}
+
+.intro {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 0 0 30px 0;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+}
+
+.sub-menu-button {
+    background-color: #010101;
+    color: #c2c2c2;
+    text-transform: uppercase;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.sub-menu-button:focus {
+    border: 1px solid goldenrod;
+}
+
+input[type="Submit"],
+select {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid black;
+    box-shadow: 2px 2px 4px black;
+    background-color: #010101;
+    color: deeppink;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+
+select {
+    font-size: 1.5em;
+    white-space: pre-wrap;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: button;
+    padding: 7px;
+    border-left: none;
+    width: 90vw;
+    margin: 0;
+}
+
+input[type="Submit"] {
+    padding: 10px 15px;
+    font-size: 2em;
+    margin-right: 10vw;
+}
+
+option {
+    font-size: .8em;
+}
+
+input[type="Submit"]:focus,
+select:focus {
+    border: 3px solid goldenrod;
+    box-shadow: 2px 2px 4px rgba(245, 189, 47, 0.726);
+}
+
+.crest {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 100px auto;
+}
+
+#news-list {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.js-container h2 {
+    margin-top: 75px;
+    margin-left: 10px;
+    color: goldenrod;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#news-list a {
+    text-decoration: none;
+    color: #c9c9c9;
+    text-transform: uppercase;
+}
+
+#news-list li,
+#stats-at-a-glance li {
+    margin: 20px;
+    max-width: 80vw;
+    border-bottom: 1px solid goldenrod;
+}
+
+#stats-at-a-glance {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+#stats-at-a-glance li {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.team {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sub-header {
+    margin: 50px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.vs {
+    text-align: center;
+    color: goldenrod;
+    font-size: 24px;
+}
+
+.next-match-container {
+    margin-bottom: 50px;
+}
+
+.next-match {
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.next-match span {
+    font-size: 22px;
+    font-weight: bold;
+}
